@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web design project</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <ul>
+            <li><a href="">Головна</a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+        <div>
+          <button type="button"><img src="" alt="" /></button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- title -->
+      <section>
+        <div>
+          <h1>Auto Audio</h1>
+          <img src="" alt="" />
+          <h2></h2>
+          <button type="button">Наші послуги</button>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <h2>Адреса</h2>
+              <a href=""><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, a?</p></a>
+            </li>
+            <li>
+              <h2>Телефон</h2>
+              <ul>
+                <li><a href="tel:+380000000000">+38 (000) 000 00 00</a></li>
+                <li><a href="tel:+380000000000">+38 (000) 000 00 00</a></li>
+              </ul>
+            </li>
+            <li>
+              <h2>Режим роботи</h2>
+              <ul>
+                <li>
+                  <p>пн-пт : 10:00 - 20:00</p>
+                </li>
+                <li>
+                  <p>сб-вск : 12:00 - 20:00</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        
+        <!-- Slider main container -->
+        <div class="swiper swipert" >
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><div class="swiper-content">Slide 1</div></div>
+            <div class="swiper-slide"><div class="swiper-content">Slide 2</div></div>
+            <div class="swiper-slide"><div class="swiper-content">Slide 3</div></div>
+            <div class="swiper-slide"><div class="swiper-content">Slide 4</div></div>
+            <div class="swiper-slide"><div class="swiper-content">Slide 5</div></div>
+            <div class="swiper-slide"><div class="swiper-content">Slide 6</div></div>
+            ...
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  slidesPerView: 3,
+  spaceBetween: 10,
+  loop: true,
+
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+    </script>
+  </body>
+</html>
